@@ -27,3 +27,7 @@ An all-in-one text analysis web application built with Flask, incorporating sent
    python app.py
    ```
 5. Visit http://localhost:5000/ in your web browser to use the text analysis web app.
+
+
+# NOTICE:
+If the summarization process doesn't work well for a single line of text, it could be due to various reasons, including the length of the input text, the content of the text, or the summarization model's limitations. The bert-extractive-summarizer library is designed for longer documents, and using it for a single line might not provide meaningful results.
