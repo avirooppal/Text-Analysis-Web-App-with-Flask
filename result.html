@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+</head>
+<body>
+    <h2>Analysis Result</h2>
+    <p><strong>Input Text:</strong></p>
+    <p>{{ result.text }}</p>
+    
+    <p><strong>Sentiment:</strong> {{ result.sentiment_emoji }}</p>
+
+    <h3>Text Summary:</h3>
+    <p>{{ result.summary }}</p>
+
+    <h3>Word Cloud:</h3>
+    <img src="data:image/png;base64,{{ result.wordcloud_img }}" alt="Word Cloud">
+</body>
+</html>
